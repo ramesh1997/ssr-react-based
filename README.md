@@ -5,14 +5,13 @@ server side rendeing using react framework
 ### simple basic layout of csr rendering 
 ![CSR-Basic structure](/src/Images/csr_basic.png)
 
-1. basic react app localhost app call response 
+### basic react app localhost api call response 
 ![CSR-Localhost-api-call](/src/Images/csr_localhost.png)
 
 The script tag causes second request to server
-Which is bundle.js which has all our react application codebase
-2. bundle.js
+Which is bundle.js which has all our react application codebase  
+### bundle.js
 ![CSR-budnle file](/src/Images/csr_bundle.png)
-
 
 ### both 1 and 2 
 ![csr-rendering-process](/src/Images/csr_time1.png)
@@ -23,16 +22,16 @@ Only aftet all these aboves steps completion we would see content on the screen.
 ## SSR (server-side-rendering) with react app
 
 ### basic rendering of ssr 
-[!ssr-localhost](/src/Images/ssr_localhost.png)
+![ssr-localhost](/src/Images/ssr_localhost.png)
 
 Only html document response from the server which has all initial content to render.
-Basic daigram -
+
+### Basic daigram of rendering
 ![ssr-basic-structure](/src/Images/ssr_time.png)
 
 ### Behind the scene of rendering process
 ![ssr-complete-flow1](/src/Images/ssr_complete_floe_1.png)
 ![ssr-complete-flow2](/src/Images/ssr_complete_flow_2.png)
-
 
 
 ### code explaination
